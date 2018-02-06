@@ -1,3 +1,25 @@
+7
+# Linear threshold activation function: 
+def step(x):
+    if 0 >= x :
+        return 0
+    else:
+        return 1
+    
+# Plot activation over given range: 
+values=[]
+
+for i in range(-10,11):
+    s = step(i)
+    values.append(s)
+
+plt.plot(range(-10,11), values)
+plt.title('step activation function over the input range [-10, 10]')
+plt.xlabel('x')
+plt.ylabel('step(x)')
+plt.show()
+#de schuine lijn komt denk ik omdat hij van x=0 naar x=1 van 0 naar 1 gaat. Omdat er veel plek is op de x-as is dit een lineaire lijn geworden?
+
 8
 # Linear sigmoid activation function: 
 def sigmoid(x):
