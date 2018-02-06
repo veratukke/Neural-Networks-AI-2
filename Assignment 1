@@ -1,3 +1,21 @@
+8
+# Linear sigmoid activation function: 
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+# Plot activation over given range: 
+values=[]
+
+for i in range(-10,11):
+    s = sigmoid(i)
+    values.append(s)
+    
+plt.plot(range(-10,11),values)
+plt.title('sigmoid activation function over the input range [-10, 10]')
+plt.xlabel('x')
+plt.ylabel('sigmoid(x)')
+plt.show()
+
 9.1
 # Write a for-loop
 for i in range(0, len(x_inputs)):
