@@ -1,0 +1,79 @@
+#Linear activation function: 
+
+#Linear activation function g(x)=x
+
+def linear(x, derivative=False):
+    if (derivative == True):
+        return 1
+    return x
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+
+# Plot activation over given range: 
+
+range = np.arange(-10, 10)
+
+plt.plot(range, linear(range))
+plt.xlabel("x")
+plt.ylabel("linear(x)")
+plt.title("Linear Function")
+plt.grid(True)
+plt.show()
+
+
+#Linear activation function: 
+
+#Linear activation function g(x)=x
+
+def linear(x, derivative=False):
+    if (derivative == True):
+        return 1
+    return x
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+
+# Plot activation over given range: 
+
+range = np.arange(-10, 10)
+
+plt.plot(range, linear(range))
+plt.xlabel("x")
+plt.ylabel("linear(x)")
+plt.title("Linear Function")
+plt.grid(True)
+plt.show()
+
+
+
+### Solution 3
+*Exercise 3.1.*
+
+1. How much is $AB$?
+$1\times5 +2\times7 = 19$  
+$6\times1 +2\times8 = 22$     
+$3\times5 +4\times7 = 43$     
+$3\times6 +4\times8 = 50$     
+
+1. How much is $BA$?
+$5\times1 +6\times3 = 23$    
+$5\times2 +6\times4 = 34$
+$7\times1 +8\times3 = 31$    
+$7\times2 +8\times4 = 46$
+   
+Answers $\mathbf{AB} = 
+\left(
+\begin{array}{cc}
+19 & 22 \\
+43 & 50
+\end{array}
+\right)
+$ and $\mathbf{BA} = 
+\left(
+\begin{array}{cc}
+23 & 34 \\
+31 & 46
+\end{array}
+\right)
+$.
