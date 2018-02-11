@@ -1,3 +1,22 @@
+6
+#Linear activation function:
+def linear(x):
+    return x
+
+# Plot activation over given range: 
+values=[]
+
+for i in range(-10,11):
+    l = linear(i)
+    values.append(l)
+
+plt.plot(range(-10,11), values)
+plt.title('linear activation function over the input range [-10, 10]')
+plt.xlabel('x')
+plt.ylabel('linear(x)')
+plt.grid()
+plt.show()
+
 7
 # Linear threshold activation function: 
 def step(x):
@@ -36,6 +55,7 @@ plt.plot(range(-10,11),values)
 plt.title('sigmoid activation function over the input range [-10, 10]')
 plt.xlabel('x')
 plt.ylabel('sigmoid(x)')
+plt.grid()
 plt.show()
 
 9.1
