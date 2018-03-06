@@ -1,0 +1,14 @@
+$\tfrac{\mathrm{d}}{\mathrm{d}y}\left[-t\ln\left(y\right)-\left(1-t\right)\ln\left(1-y\right)\right]$=
+
+$\class{steps-node}{\cssId{steps-node-2}{-t\cdot\class{steps-node}{\cssId{steps-node-4}{\tfrac{\mathrm{d}}{\mathrm{d}y}\left[\ln\left(y\right)\right]}}+\left(t-1\right)\cdot\class{steps-node}{\cssId{steps-node-3}{\tfrac{\mathrm{d}}{\mathrm{d}y}\left[\ln\left(1-y\right)\right]}}}}$
+
+$\class{steps-node}{\cssId{steps-node-6}{\dfrac{1}{1-y}}}\cdot\class{steps-node}{\cssId{steps-node-7}{\tfrac{\mathrm{d}}{\mathrm{d}y}\left[1-y\right]}}\cdot\left(t-1\right)-\class{steps-node}{\cssId{steps-node-5}{\dfrac{1}{y}}}t$
+
+
+$\dfrac{\class{steps-node}{\cssId{steps-node-8}{\left(\class{steps-node}{\cssId{steps-node-10}{\tfrac{\mathrm{d}}{\mathrm{d}y}\left[1\right]}}-\class{steps-node}{\cssId{steps-node-9}{\tfrac{\mathrm{d}}{\mathrm{d}y}\left[y\right]}}\right)}}\left(t-1\right)}{1-y}-\dfrac{t}{y}$
+
+$\dfrac{\left(\class{steps-node}{\cssId{steps-node-11}{0}}-\class{steps-node}{\cssId{steps-node-12}{1}}\right)\left(t-1\right)}{1-y}-\dfrac{t}{y}$=
+
+$\dfrac{1-t}{1-y}-\dfrac{t}{y}$ =
+
+$-\dfrac{y-t}{\left(y-1\right)y}$
